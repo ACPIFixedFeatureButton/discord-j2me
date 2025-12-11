@@ -863,7 +863,7 @@
 
     // Title and description for the dialog warning message shown when uploading a file for the first time. The user can select 'OK' to dismiss it once, or 'Hide' to never show it again.
     "Cảnh báo",
-    "Discord thường đánh dấu các nội dung tải lên từ bên thứ ba là tin rác. Điều này thường xảy ra với các tài khoản mới chưa xác minh 2FA hoặc chưa xác minh số điện thoại. Vui lòng tự chịu rủi ro khi tiếp tục.\nChọn 'Ẩn' nếu bạn không muốn thấy nội dung này nữa.",
+    "Discord thường đánh dấu các nội dung tải lên từ bên thứ ba là tin rác. Điều này thường xảy ra với các tài khoản mới chưa xác minh 2 bước hoặc chưa xác minh số điện thoại. Vui lòng tự chịu rủi ro khi tiếp tục.\nChọn 'Ẩn' nếu bạn không muốn thấy thông báo này nữa.",
 
     // Softkey labels for dismissing the upload warning (above) and never showing it again.
     "Ẩn",
@@ -893,12 +893,12 @@
 
     // Information text shown in login screen related to proxyless mode:
     // This version of the text is shown if the device is known to support TLS 1.2.
-    "Kết nối trực tiếp giúp giảm nguy cơ bị hạn chế tài khoản.",
+    "Kết nối trực tiếp cho phếp bạn kết nối mà không dùng proxy, giúp giảm nguy cơ bị hạn chế tài khoản.",
 
     // This version of the text is shown otherwise. The text is split into three parts which are shown together. The middle one is a link to the nnproject TLS 1.2 page if using a Symbian device.
     "Kết nối trực tiếp (",
     "yêu cầu có TLS 1.2",
-    ") giúp giảm nguy cơ bị hạn chế tài khoản.",
+    ") cho phép bạn kết nối mà không dùng proxy, giúp giảm nguy cơ bị hạn chế tài khoản.",
 
     // Softkey command for opening the nnproject TLS 1.2 page.
     "Lấy TLS",
@@ -951,48 +951,48 @@
     "Tự động",
 
     // Title for login screen (new version).
-    "Welcome",
+    "Chào mừng",
     
     // Softkey commands for opening a link in the login screen.
-    "Open",
-    "Open",
+    "Mở",
+    "Mở",
 
     // Text for the link shown in the login screen for reading more about Direct connection.
-    "Learn more",
+    "Tìm hiểu thêm",
 
     // Info text shown in the login screen after the Direct connection option and before the button for changing proxy URLs.
-    "The app can also be used with a proxy server. ",
+    "Ứng dụng này cũng có thể được sử dụng với một máy chủ proxy. ",
 
     // Safety recommendation in the login screen, shown after the above string.
-    "It is recommended to host your own proxy. ",
+    "Bạn nên dùng một proxy của riêng bạn. ",
 
     // Hint text shown after the above string on BlackBerry devices.
-    "To edit your connection URLs, press the BlackBerry key.",
+    "Để chỉnh sửa các URL, ấn nút BlackBerry.",
 
     // Text label shown inside the button for changing the proxy connection URLs (on non-BlackBerry devices).
-    "Connection URLs",
+    "Các URL kết nối",
 
     // Explanation strings for the "Use gateway" option.
     // This version of the string is shown on versions that support Direct connection.
-    "Gateway (real-time chat) requires the use of a proxy server.",
+    "Cổng (nhắn tin trong thời gian thực) cần một máy chủ proxy.",
     // This string is shown on versions that don't support Direct connection.
-    "The gateway is used for real-time chat and certain other features.",
+    "Cổng được sử dụng cho việc nhắn tin trong thời gian thực và một số tính năng khác.",
 
     // Explanation string for the token settings.
-    "The app requires a token for logging in. ",
+    "Ứng dụng này cần mã truy cập (token) của bạn để đăng nhập. ",
 
     // Explanation strings for other token entry methods.
     // This version of the string is shown on devices that support FileConnection (file system access in Java).
-    "To avoid typing errors, you can import the token from a text file or insert it into the JAR file.",
+    "Để tránh những lỗi chính tả, bạn có thể nhập mã bằng một tệp văn bản hoặc thêm nó vào tệp JAR của ứng dụng.",
     // This string is shown on devices that don't support FileConnection.
-    "To avoid typing errors, you can insert the token into the JAR file.",
+    "Để tránh những lỗi chính tả, bạn có thể thêm mã vào tệp JAR của ứng dụng.",
 
     // Error message shown when a HTTPS connection fails due to the app not being signed with a code-signing certificate.
     // More user-friendly form of "java.lang.SecurityException"
-    "Your device requires the app to be signed to use Direct connection. Download a signed JAD of the app suitable for your device, or disable Direct connection.\nRead more at gtrxac.fi/j2me/proxyless",
+    "Thiết bị của bạn yêu cầu ứng dụng này được kí để kết nối trực tiếp. Tải tệp JAD của một phiên bản được kí dành cho thiết bị của bạn, hoặc tắt kết nối trực tiếp.\nTìm hiểu thêm tại gtrxac.fi/j2me/proxyless",
 
     // Related to "Lines shown in the about (credits) screen for what each developer" above.
-    "Direct connection support"
+    "Hỗ trợ kết nối trực tiếp"
 
     // NOTE for translators:
     // The string with the comment "Information text shown in login screen related to proxyless mode"
